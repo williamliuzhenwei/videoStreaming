@@ -19,7 +19,7 @@ public class ServletUtil {
     public static String encryptPassword(String userId, String password) throws IOException {
         return DigestUtils.md5Hex(userId + DigestUtils.md5Hex(password)).toLowerCase();
     }
-    
+
     public static <T> T readRequestBody(Class<T> cl, HttpServletRequest request) throws IOException {
         ObjectMapper mapper = new ObjectMapper();
         try {
