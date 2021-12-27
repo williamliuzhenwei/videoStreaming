@@ -6,6 +6,7 @@ import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 import java.util.Properties;
 
+
 public class MySQLDBUtil {
     private static final String INSTANCE = "mysql-instance.cmqxnc5s1rjl.us-west-1.rds.amazonaws.com";
     private static final String PORT_NUM = "3306";
